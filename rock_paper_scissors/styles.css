@@ -1,0 +1,81 @@
+/* Full-page wallpaper */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('https://images.unsplash.com/photo-1606851090832-3b6f95d85c82') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Overlay to make text readable */
+.game-container {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #ffeb3b;
+}
+
+/* Buttons */
+.choice-btn {
+    background: linear-gradient(45deg, #ff5722, #ff9800);
+    border: none;
+    padding: 15px 25px;
+    margin: 10px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+.choice-btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #ff9800, #ff5722);
+}
+
+/* Result styles */
+.result-container h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+/* Reset Button */
+.reset-btn {
+    margin-top: 15px;
+    background: linear-gradient(45deg, #2196f3, #03a9f4);
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.reset-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(45deg, #03a9f4, #2196f3);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.6);
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
